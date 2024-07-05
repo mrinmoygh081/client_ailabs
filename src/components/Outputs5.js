@@ -1,5 +1,5 @@
 import React from "react";
-import vid from "../assets/helmet_detect.mp4";
+// import vid from "../assets/helmet_detect.mp4";
 import resVideo from "../assets/result.mp4";
 
 const Outputs = ({ isUploaded }) => {
@@ -18,7 +18,7 @@ const Outputs = ({ isUploaded }) => {
             <div className="card">
               <h2>Findings</h2>
               {isUploaded ? (
-                <video src={vid} controls />
+                <>{/* <video src={vid} controls /> */}</>
               ) : (
                 <p>Click on Process Now Button</p>
               )}
