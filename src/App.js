@@ -48,14 +48,14 @@ function App() {
   return (
     <>
       <div className="header">
-        <div className="logo">
+        {/* <div className="logo">
           <img
             src={require("./assets/logo1.jpg")}
             alt="Datacore Logo"
             className="logoImg"
           />
           <h2>DCG Data-Core Systems (India) Pvt. Ltd.</h2>
-        </div>
+        </div> */}
 
         <h3>Bag Count</h3>
         <Outputs isUploaded={isUploaded} />
